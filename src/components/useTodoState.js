@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 
 const useTodoState = (initialValue) => {
     const [todos, setTodos] = useState(initialValue)
